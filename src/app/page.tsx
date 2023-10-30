@@ -19,6 +19,7 @@ export default function Home() {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNi-Oz3UZSl4cQli_D0FmVTZhUUaGxviO2g&usqp=CAU"
           alt=""
           className="post-image"
+          
         />
       </section>
     </main>
