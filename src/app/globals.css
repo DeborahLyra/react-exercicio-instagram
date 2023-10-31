@@ -9,7 +9,7 @@
 
 main{
   background-color: lightpink;
-  color: #ffff;
+  color: gray;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,16 +17,32 @@ main{
   height: 100vh;
 }
 
+.container{
+  min-width: 450px;
+  background-color: #ffff;
+}
+
 .data-container{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 10px 0;
-  background-color: #ffff;
+  height: 80px;
 }
 
 .profilePicture{
-  width: 80px;
-  margin-right: 10px;
+  width: 50px;
+  margin: 10px;
+}
 
+.profile-text-container{
+ font-size: 1.2rem;
+}
+
+.post-image{
+  width: 100%;
+}
+
+.likes-container{
+  height: 3rem;
+  padding: 1rem;
 }
